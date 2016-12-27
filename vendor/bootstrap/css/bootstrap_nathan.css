@@ -1281,7 +1281,7 @@ h2,
 }
 h3,
 .h3 {
-    font-size: 40px
+    font-size: 3.5vw;
 }
 h4,
 .h4 {
@@ -4657,6 +4657,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: #131623;
     border-color: #131623;
 }
+.navbar-inverse-transparent {
+    background-color: transparent;
+    border-color: transparent;
+}
 .navbar-inverse .navbar-brand {
     color: #d1d1d1;
 }
@@ -4693,7 +4697,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #1d2331
+    background-color: #131623
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #fff
@@ -5021,8 +5025,8 @@ a.badge:focus {
     margin-left: 3px
 }
 .jumbotron {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     margin-bottom: 0px;
     color: inherit;
     background-color: #eee;
@@ -5033,7 +5037,7 @@ a.badge:focus {
 }
 .jumbotron p {
     margin-bottom: 15px;
-    font-size: 21px;
+    font-size: 1.3vw;
     font-weight: 200
 }
 .jumbotron>hr {
@@ -7287,10 +7291,13 @@ body {
 
 .textI {
   color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.image-opacity {
+  opacity: 0.5;
+  filter: alpha(opacity=70);
 }

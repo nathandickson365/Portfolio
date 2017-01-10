@@ -62,6 +62,7 @@ abbr[title] {
 }
 b,
 strong {
+    font-size: 150%;
     font-weight: bold
 }
 dfn {
@@ -1090,7 +1091,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #eee;
-    background-color: #fff
+    background-color: #eee
 }
 input,
 button,
@@ -1285,11 +1286,12 @@ h3,
 }
 h4,
 .h4 {
-    font-size: 60px
+    font-size: 20px;
+    font-weight: bold;
 }
 h5,
 .h5 {
-    font-size: 24px
+    font-size: 20px
 }
 h6,
 .h6 {
@@ -7258,7 +7260,6 @@ body {
   width: 70%;
   align: center;
 }
-
 .imageI {
   display: block;
   width: 100%;
@@ -7309,14 +7310,13 @@ body {
 
   margin: auto;
   position: relative;
-  width: 15%;
+  width: 270px;
   align: center;
 }
 
 .aboutext {
   color: black;
-  font-family: sans-serif;
-  font-style:
+  font-family: "calibri";
 }
 
 .containerII {
@@ -7325,4 +7325,13 @@ body {
   width: 70%;
   height: 39.375vw;
   text-align: center;
+}
+.containerIII {
+  margin: auto;
+  position: relative;
+  width: 55%;
+  align: center;
+}
+.backgroundcolorwhite {
+  background-color: #FFFFFF
 }

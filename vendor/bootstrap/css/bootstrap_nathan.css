@@ -1104,6 +1104,7 @@ textarea {
 a {
     color: #337ab7;
     text-decoration: none
+    
 }
 a:hover,
 a:focus {
@@ -3139,14 +3140,14 @@ fieldset[disabled] a.btn {
 .btn-default:hover {
     color: #333;
     background-color: #e6e6e6;
-    border-color: #adadad
+    border-color: #eeeeee
 }
 .btn-default:active,
 .btn-default.active,
 .open>.dropdown-toggle.btn-default {
     color: #333;
     background-color: #e6e6e6;
-    border-color: #adadad
+    border-color: #eeeeee
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -6846,7 +6847,7 @@ a {
 }
 a:hover,
 a:focus {
-    color: #adadad
+    color: #eeeeee
 }
 h1,
 h2,
@@ -6897,7 +6898,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #adadad
+    color: #eeeeee
 }
 .navbar-default .navbar-header .navbar-toggle {
     font-weight: 700;
@@ -6955,7 +6956,7 @@ aside {
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #adadad
+        color: #eeeeee
     }
     .navbar-default.affix .nav>li>a,
     .navbar-default.affix .nav>li>a:focus {
@@ -7319,6 +7320,12 @@ body {
   font-family: "calibri";
 }
 
+.musictext {
+  color: #666666;
+  font-family: "calibri";
+  font-weight: bolder;
+}
+
 .containerII {
   margin: auto;
   position: relative;
@@ -7334,4 +7341,7 @@ body {
 }
 .backgroundcolorwhite {
   background-color: #FFFFFF
+}
+.inline {
+  display: inline
 }

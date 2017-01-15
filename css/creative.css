@@ -157,7 +157,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header2.jpg');
   text-align: center;
   color: white;
 }
@@ -355,6 +355,19 @@ fieldset[disabled] .btn-default.active {
   background-color: #5c5c5c;
   border-color: #5c5c5c;
 }
+
+header:hover,
+header:focus,
+header.focus,
+header:active,
+header.active,
+.open > header.dropdown-toggle {
+  background-image: url('../img/header.jpg');
+  transition: 2s ease;
+  -webkit-transition-delay: .3s; /* Safari */
+  transition-delay: .3s;
+}
+
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {

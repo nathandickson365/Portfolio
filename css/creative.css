@@ -363,7 +363,7 @@ header:active,
 header.active,
 .open > header.dropdown-toggle {
   background-image: url('../img/header.jpg');
-  transition: 2s ease;
+  transition: .77s ease;
   -webkit-transition-delay: .3s; /* Safari */
   transition-delay: .3s;
 }

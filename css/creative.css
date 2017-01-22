@@ -356,18 +356,6 @@ fieldset[disabled] .btn-default.active {
   border-color: #5c5c5c;
 }
 
-header:hover,
-header:focus,
-header.focus,
-header:active,
-header.active,
-.open > header.dropdown-toggle {
-  background-image: url('../img/header.jpg');
-  transition: .77s ease;
-  -webkit-transition-delay: .3s; /* Safari */
-  transition-delay: .3s;
-}
-
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
